@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time tracking dashboard</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="grid">
+        <div class="grid-item item-1">
+          <div class="user">
+            <img
+              src="./images/image-jeremy.png"
+              alt="jeremy"
+              class="user-img"
+            />
+            <div class="user-info">
+              <p class="user-info-report">Report for</p>
+              <h1 class="user-info-name">Jeremy Robson</h1>
+            </div>
+          </div>
+          <ul class="time-period-list">
+            <li class="list-item" id="daily">Daily</li>
+            <li class="list-item active" id="weekly">Weekly</li>
+            <li class="list-item" id="monthly">Monthly</li>
+          </ul>
+        </div>
+        <div class="grid-item item-2">
+          <img src="./images/icon-work.svg" alt="work" class="work-img" />
+          <div class="card work">
+            <div class="card-header">
+              <h2 class="card-header-title">Work</h2>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="card-footer">
+              <p class="current">32hrs</p>
+              <p class="previous">Last Week-36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item item-3">
+          <img src="./images/icon-play.svg" alt="play" class="play-img" />
+          <div class="card play">
+            <div class="card-header">
+              <h2 class="card-header-title">Play</h2>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="card-footer">
+              <p class="current">10hrs</p>
+              <p class="previous">Last Week-8hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item item-4">
+          <img src="./images/icon-study.svg" alt="study" class="study-img" />
+          <div class="card study">
+            <div class="card-header">
+              <h2 class="card-header-title">Study</h2>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="card-footer">
+              <p class="current">4hrs</p>
+              <p class="previous">Last Week-8hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item item-5">
+          <img
+            src="./images/icon-exercise.svg"
+            alt="exercise"
+            class="exercise-img"
+          />
+          <div class="card exercise">
+            <div class="card-header">
+              <h2 class="card-header-title">Exercise</h2>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="card-footer">
+              <p class="current">4hrs</p>
+              <p class="previous">Last Week-5hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item item-6">
+          <img src="./images/icon-social.svg" alt="social" class="social-img" />
+          <div class="card social">
+            <div class="card-header">
+              <h2 class="card-header-title">Social</h2>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="card-footer">
+              <p class="current">5hrs</p>
+              <p class="previous">Last Week-10hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item item-7">
+          <img
+            src="./images/icon-self-care.svg"
+            alt="self-care"
+            class="selfcare-img"
+          />
+          <div class="card selfcare">
+            <div class="card-header">
+              <h2 class="card-header-title">Self Care</h2>
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="card-footer">
+              <p class="current">2hrs</p>
+              <p class="previous">Last Week-2hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./app.js"></script>
+  <script src="./data.json"></script>
+</html>
